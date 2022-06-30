@@ -143,7 +143,7 @@
 
 .active {
     position: absolute;
-    left: 0;
+    left: -10%;
     transition: 2s;
 }
 
@@ -196,6 +196,14 @@
         top: 1%;
         transition: 1.5s;
         z-index: 3;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .mobile-nav {
+        display: fixed;
+		left: -100%;
     }
 
 }
